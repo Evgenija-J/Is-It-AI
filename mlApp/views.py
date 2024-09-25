@@ -65,7 +65,7 @@ def formInfo(request):
 
     total_predictions = len(predictions)
     ai_predictions = sum(1 for pred in predictions.values() if pred == 1)
-    ai_percentage = (ai_predictions / total_predictions) * 100
+    ai_percentage = (ai_predictions / (total_predictions + 2)) * 100
     
 
     return render(request, 'result.html', {
