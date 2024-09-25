@@ -1,6 +1,6 @@
 # **Is-It-AI**
 
-This project aims to develop a machine learning system capable of differentiating between AI-generated and human-written essays. The solution leverages various machine learning models, including traditional classifiers like Logistic Regression and Random Forest, as well as advanced models like BERT. The models are integrated into a Django web application, allowing users to input text and receive predictions on whether the text is AI-generated or human-written.
+This project aims to develop a machine learning system capable of differentiating between AI-generated and human-written essays. The solution takes into consideration machine learning models, including traditional classifiers like Logistic Regression and Random Forest, as well as advanced models like BERT. The models are integrated into a Django web application, allowing users to input text and receive predictions on whether the text is AI-generated or human-written.
 
 ## **Features**
 - **Multi-Model Classification**: Uses a variety of models including Logistic Regression, SVC, Random Forest, XGBoost, and BERT.
@@ -45,6 +45,11 @@ For further details on the project and its structure, please refer to the [docum
    ```
 3. Visit `http://127.0.0.1:8000/` in your browser to interact with the web application.
 
+Once you visit the applicationa screen will appear where you can input text and see what our trained models think!
+<img src="https://github.com/user-attachments/assets/ea093861-32b3-4567-bed1-dc0e3ce10c5a" height="300px" width="500px"/>
+<img src="https://github.com/user-attachments/assets/9dc82d18-c9fd-4791-ad44-fbdc2f1e58a3" height="300px" width="500px"/>
+
+
 ### **Model Prediction**
 You can enter text in the form provided on the website. The system will then process the text through multiple models and return:
 - Predictions from each model (AI-generated or human-written).
@@ -61,3 +66,4 @@ You can enter text in the form provided on the website. The system will then pro
 - Expanding the dataset to include articles, creative writing, and other types of text.
 - Adding more advanced features like syntactic and grammatical analysis to further improve model performance.
 - Implementing real-time model updates to continuously improve accuracy as new data becomes available.
+
