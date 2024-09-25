@@ -33,10 +33,6 @@ For further details on the project and its structure, please refer to the [docum
    ```bash
    git clone https://github.com/Evgenija-J/Is-It-AI.git
    ```
-2. Install the necessary Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ### **Running the Django Application**
 1. Run migrations for the Django backend:
